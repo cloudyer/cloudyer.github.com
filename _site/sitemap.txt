@@ -1,0 +1,22 @@
+
+  /pages/about.html
+
+  /pages/archive.html
+
+  /pages/atom.xml
+
+  /index.html
+
+  /sitemap.txt
+
+
+
+  /2015/01/01/my-2014.html
+
+  /2013/12/20/book-list-of-2013.html
+
+  /2012/09/27/php-variable-variables.html
+
+  /2012/09/27/open-widown-in-javascript.html
+
+  /2012/09/19/php-session-security.html

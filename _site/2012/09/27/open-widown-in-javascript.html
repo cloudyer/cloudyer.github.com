@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>JS中防止浏览器屏蔽window.open | 雪剑20的博客</title>
+<meta name="author" content="雪剑20">
+
+
+  <meta name="description " content="JS中防止浏览器屏蔽window.open">
+
+<link rel="shortcut icon" href="http://7u2ho6.com1.z0.glb.clouddn.com/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/public/css/bootstrap.css">
+<link rel="stylesheet" href="/public/css/font-awesome.css">
+<link rel="stylesheet" href="/public/js/prettify/prettify.css">
+<link rel="stylesheet" href="/public/css/base.css">
+<link href="/pages/atom.xml" rel="alternate" title="雪剑20的博客" type="application/atom+xml">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 aside visible-md visible-lg">
+  <div class="row">
+    <div class="col-md-3 col-xs-3 aside1">
+      <br>
+      <a class="pjaxlink" href="/"><img src="http://7u2ho6.com1.z0.glb.clouddn.com/gavatar.png" class="img-circle avatar"></a>
+      <br><br>
+      <ul class="nav nav-pills nav-stacked">
+        
+          <li><a href="#技术" data-toggle="tab">技术</a></li>
+        
+          <li><a href="#读书" data-toggle="tab">读书</a></li>
+        
+          <li><a href="#生活" data-toggle="tab">生活</a></li>
+        
+        <li><a href="#tags" data-toggle="tab">标签</a></li>
+        <li><a class="pjaxlink" href="/pages/archive.html">归档</a></li>
+        <li><a class="pjaxlink" href="/pages/about.html">关于</a></li>
+      </ul>
+      <div class="aside1_bottom">
+        <table class="table table-condensed">
+          <tr>
+            <td><a href="/pages/atom.xml" target="_blank"><i class="fa fa-rss fa-2x"></i></a></td>
+            <td><a href="mailto:zuiyuanjuli1566@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-9 col-xs-9 aside2">
+      <div class="row">
+        <div class="tab-content">
+           
+            <div class="tab-pane" id="技术">
+              <div class="list-group">
+                <h2 class="center">技术</h2>
+                
+                  <a href="/2012/09/27/php-variable-variables.html" class="list-group-item pjaxlink">PHP可变变量</a>
+                
+                  <a href="/2012/09/27/open-widown-in-javascript.html" class="list-group-item pjaxlink">JS中防止浏览器屏蔽window.open</a>
+                
+                  <a href="/2012/09/19/php-session-security.html" class="list-group-item pjaxlink">PHP操作Session的原理及提升安全性时的一个问题</a>
+                
+              </div>
+            </div>
+           
+            <div class="tab-pane" id="读书">
+              <div class="list-group">
+                <h2 class="center">读书</h2>
+                
+                  <a href="/2013/12/20/book-list-of-2013.html" class="list-group-item pjaxlink">2013阅读书单</a>
+                
+              </div>
+            </div>
+           
+            <div class="tab-pane" id="生活">
+              <div class="list-group">
+                <h2 class="center">生活</h2>
+                
+                  <a href="/2015/01/01/my-2014.html" class="list-group-item pjaxlink">2014 个人总结</a>
+                
+              </div>
+            </div>
+          
+          <div class="tab-pane" id="tags">
+            <div class="panel-group" id="accordion">
+              <h2 class="center">标签</h2>
+               
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#PHP">PHP</a>
+                      <span class="badge pull-right">2</span>
+                    </h4>
+                  </div>
+                  <div id="PHP" class="panel-collapse collapse">
+                    
+                      <a  href='/2012/09/27/php-variable-variables.html' class="list-group-item pjaxlink">
+                        PHP可变变量
+                      </a>
+                    
+                      <a  href='/2012/09/19/php-session-security.html' class="list-group-item pjaxlink">
+                        PHP操作Session的原理及提升安全性时的一个问题
+                      </a>
+                    
+                  </div>
+                </div>
+               
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#JavaScript">JavaScript</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="JavaScript" class="panel-collapse collapse">
+                    
+                      <a  href='/2012/09/27/open-widown-in-javascript.html' class="list-group-item pjaxlink">
+                        JS中防止浏览器屏蔽window.open
+                      </a>
+                    
+                  </div>
+                </div>
+               
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Essay">Essay</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Essay" class="panel-collapse collapse">
+                    
+                      <a  href='/2015/01/01/my-2014.html' class="list-group-item pjaxlink">
+                        2014 个人总结
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 aside3">
+        <div id="container">
+          <div id="pjax">
+            <div class="row">
+  <div class="col-md-12 aside3-title">
+    <br>
+    <h2 id="#identifier">JS中防止浏览器屏蔽window.open</h2>
+    2012年09月27日
+  </div>
+  <div class="col-md-12 aside3-content">
+    <!-- 目录 -->
+<div class="content">
+    <h3><a href="javascript:;" id="content_btn">[目录]</a></h3>
+    <div id="content_table" style="display:none;">
+        <div id="nav"></div>
+    </div>
+</div>
+
+    <hr>
+    <div id="content">
+      <p>有的时候我们需要一些弹出窗来作为临时信息显示，在js代码中直接使用</p>
+
+<pre><code>window.open(url,“_blank”,option);
+</code></pre>
+
+<p>即可实现跳转，而且还可以传递一些参数。</p>
+
+<p>但是有个问题是，很多浏览器不支持代码触发上述代码，这个问题在平常使用中显得很不方便，尤其是我们经常用ajax返回值来触发一个新页面。</p>
+
+<p>为了防止被屏蔽，可以有两种方式解决。<br />
+1、在用户点击事件中增加监听程序</p>
+
+<pre><code>&lt;button onclick=“test()”&gt;点击&lt;/button&gt;
+&lt;script type=“text/javascript”&gt;
+var is_finished=false;
+function test(){
+$.get(“/”,function(){
+is_finished=true;
+});
+test2();
+}
+function test2(){
+if(is_finished){
+window.open(“http://www.baidu.com”,“_blank”);
+}else{
+setTimeout(test2,1000);
+}
+}
+&lt;/script&gt;
+</code></pre>
+
+<p>2、在点击后先打开空白页，之后再修改地址</p>
+
+<pre><code>&lt;button onclick=“test()”&gt;点击&lt;/button&gt;
+&lt;script type=“text/javascript”&gt;
+function test(){
+var frame=window.open(“about:blank”,“_blank”);
+$.get(“/”,function(){
+frame.location=“http://www.baidu.com”;
+});
+}
+&lt;/script&gt;
+</code></pre>
+
+    </div>
+    <hr>
+    <div id="disqus_thread">
+  <button type="button" name="cloudyer" class="btn btn-default show-commend">显示评论</button>
+</div>
+
+  </div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="position:fixed;right:20px;top:10px;">
+  <button id="nav_btn" class="btn btn-primary">
+    <i class="fa fa-2x fa-navicon"></i>
+  </button>
+</div>
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/bootstrap.js"></script>
+<script src="/public/js/jquery.pjax.js"></script>
+<script src="/public/js/prettify/prettify.js"></script>
+<script src="/public/js/base.js"></script>
+<script>
+    $('a[href="#技术"]').tab('show');
+</script>
+
+</body>
+</html>
